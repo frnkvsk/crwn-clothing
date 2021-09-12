@@ -17,8 +17,7 @@ class Directory extends React.Component {
       this.setState({sections: sections})
    }
 
-   render() {
-      
+   render() {      
       return (
          <div className='directory-menu'>
             {
@@ -30,7 +29,5 @@ class Directory extends React.Component {
       )
    }
 }
-// this.state.sections.map(e => (
-//    <MenuItem key={e.id} title={e.title} imageUrl={e.imageUrl} />
-// ))
+
 export default Directory;
